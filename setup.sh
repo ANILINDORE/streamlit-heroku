@@ -4,8 +4,11 @@ echo "\
 [general]\n\
 email = \'21f1004374@student.onlinedegree.iitm.ac.in'\n\
 ">~/.streamlit/credentials.toml
+
+
 echo "\
 [server]\n\
-port = $PORT\n\
+headless = true\n\
+enableCORS=false\n\
 port = $PORT\n\
 "> ~/.streamlit/config.toml
